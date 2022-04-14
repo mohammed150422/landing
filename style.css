@@ -1,0 +1,265 @@
+@import url('https: //fonts.google.com/specimen/Bai+Jamjuree');
+:root{
+    bottom: hsl(171, 66%, 44%);
+list-style: hsl(233, 100%, 69%);
+   font-variant-ligatures: hsl(210, 10%, 33%); 
+    initial-value: hsl(201, 11%, 66%);
+}
+.main-content{
+    width: 90%;
+    height: 400vh;
+    box-shadow: -1px -4px 5px 2px rgba(0, 0, 0, 0.26);
+    margin: auto;
+    border-radius: 2px;
+    Font-size: 18px;
+    font-weight: 400;
+}
+h1 {
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+p {
+   text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+.download{
+    display: flex;
+    width: 100%;
+    height: 8rem;
+    justify-content:space-evenly;
+    align-items: center;
+}
+h2{
+color: hsl(210, 10%, 33%);
+line-height: 20px;
+}
+.header {
+    background-image: url("/images/bg-header-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ios{
+    background-color:hsl(171, 66%, 44%);
+    color: aliceblue;
+    border-radius: 50px;
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    color: aliceblue;
+    border-radius: 50px;
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.keep{
+    text-align: center;width: 90%;
+    height: 400px;
+}
+.computer {
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 67%;
+}
+.computer img{
+    width: 80%;
+}
+.section1{
+    width: 30%;
+    height: 40rem;
+    margin-left:55vw ;
+    margin-top: -53vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 h1,.section1 p{
+    text-align: left;
+}
+.devices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.devices img{
+    width: 60%;
+}
+.section2{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.section2 svg{
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.sneak{
+    margin-top: -15px;
+}
+.sneak svg{
+    margin-left: 200px;
+}
+.section3{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.section4{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 11px;
+}
+
+
+
+
+
+
+@media (max-width:375px) {
+    .main-content {
+        width: 100%;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    }
+.header{
+    width: 100%;
+    height: 20vh;
+    background-image: url("/images/bg-header-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.clip{
+    width: 90%;
+    margin:0 auto 50px;
+    font-size: 17px;
+}
+.download{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 100px;
+}
+.ios {
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.mac {
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.keep {
+    width: 90%;
+    height: 400px;
+}
+.computer
+{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+ img{
+    width: 80%;
+    height: 200px;
+}
+.access,.super,
+.blacklist,
+.plain,
+.sneak,
+.clipboard{
+    margin-top: 150px;
+}
+.icon{
+    margin-top: 100px;
+    height: 50px;
+}
+.footer svg{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+h2:hover{
+    color: hsl(171, 66%, 44%);;
+}
+.ios:hover,.mac:hover{
+    border: 1px solid black;
+}
+.section1 {
+    width: 100%;
+    height: 40rem;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+}
+.section1 h1,
+.section1 p {
+    text-align:center;
+}
+.section2 {
+    width: 100%;
+    height: 30rem;
+    display:block;
+}
+.section2 svg {
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.devices img {
+    width: 90%;
+}
+.section3 {
+    display:block;
+}
+.sneak {
+    margin-top: 0px;
+}
+.section3 {
+    display:block;
+    margin-top:350px;
+ 
+}
+.section4 {
+    width: 100%;
+    height: 20rem;
+    display: block;
+    font-size: 11px;
+}
+}
